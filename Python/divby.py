@@ -7,6 +7,6 @@ for i in range(num1, num2):
     if (i % 3 == 0 or i % 5 == 0):
         sum = sum+i
         list1.append(i)
-print("sum of numbers divisible by 3 or 5 : ", sum)
-print("number of elements divisible by 3 or 5 : ", len(list1))
+print("sum of numbers divisible by 3 or 5 is : ", sum)
+print("number of elements divisible by 3 or 5 are : ", len(list1))
 print(list1)
