@@ -15,4 +15,4 @@ def Largest_Prime_Factor(n):
     return prime_factor
 
 
-Largest_Prime_Factor(600851475143)
+print(Largest_Prime_Factor(600851475143))
