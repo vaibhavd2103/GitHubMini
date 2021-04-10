@@ -13,7 +13,9 @@ def fib(n):
             c = a+b
             a = b
             b = c
-            print(c)
+
+            if c % 2 == 0 and c <= 4000000:
+                print(c)
 
 
-fib(10)
+fib(4000000)
